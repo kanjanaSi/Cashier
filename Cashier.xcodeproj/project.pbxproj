@@ -15,6 +15,14 @@
 		272F1D911C6A31C50098F620 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 272F1D8F1C6A31C50098F620 /* NSString+MD5Addition.m */; };
 		272F1D941C6A31CD0098F620 /* NOPersistentStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 272F1D921C6A31CD0098F620 /* NOPersistentStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		272F1D951C6A31CD0098F620 /* NOPersistentStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 272F1D931C6A31CD0098F620 /* NOPersistentStore.m */; };
+		2762CF671C8C87BA00E87140 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CF661C8C87BA00E87140 /* PerformanceTests.swift */; };
+		2762CF6D1C8C885000E87140 /* PerformanceSmallTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2762CF691C8C885000E87140 /* PerformanceSmallTest.json */; };
+		2762CF6E1C8C885000E87140 /* PerformanceTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2762CF6A1C8C885000E87140 /* PerformanceTest.json */; };
+		2762CF6F1C8C885000E87140 /* PerformanceTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CF6B1C8C885000E87140 /* PerformanceTestModel.swift */; };
+		2762CF701C8C885000E87140 /* PerformanceTestSmallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CF6C1C8C885000E87140 /* PerformanceTestSmallModel.swift */; };
+		2762CF731C8C88F100E87140 /* Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CF711C8C88F100E87140 /* Bridging.swift */; };
+		2762CF741C8C88F100E87140 /* CashierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CF721C8C88F100E87140 /* CashierExtension.swift */; };
+		2762CF761C8C892600E87140 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2762CF751C8C892600E87140 /* Serializable.framework */; };
 		27DFB9EF1C78CFDD00257D86 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFB9EE1C78CFDD00257D86 /* PersistentStore.swift */; };
 		27DFB9F21C78D03200257D86 /* PersistentStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFB9F11C78D03200257D86 /* PersistentStoreTests.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +49,14 @@
 		272F1D8F1C6A31C50098F620 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		272F1D921C6A31CD0098F620 /* NOPersistentStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOPersistentStore.h; sourceTree = "<group>"; };
 		272F1D931C6A31CD0098F620 /* NOPersistentStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOPersistentStore.m; sourceTree = "<group>"; };
+		2762CF661C8C87BA00E87140 /* PerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		2762CF691C8C885000E87140 /* PerformanceSmallTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerformanceSmallTest.json; path = Models/PerformanceSmallTest.json; sourceTree = "<group>"; };
+		2762CF6A1C8C885000E87140 /* PerformanceTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerformanceTest.json; path = Models/PerformanceTest.json; sourceTree = "<group>"; };
+		2762CF6B1C8C885000E87140 /* PerformanceTestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerformanceTestModel.swift; path = Models/PerformanceTestModel.swift; sourceTree = "<group>"; };
+		2762CF6C1C8C885000E87140 /* PerformanceTestSmallModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerformanceTestSmallModel.swift; path = Models/PerformanceTestSmallModel.swift; sourceTree = "<group>"; };
+		2762CF711C8C88F100E87140 /* Bridging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bridging.swift; path = "../../Cashier-Serializable/Cashier-Serializable/Cashier-Serializable/Classes/Bridging.swift"; sourceTree = "<group>"; };
+		2762CF721C8C88F100E87140 /* CashierExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CashierExtension.swift; path = "../../Cashier-Serializable/Cashier-Serializable/Cashier-Serializable/Classes/CashierExtension.swift"; sourceTree = "<group>"; };
+		2762CF751C8C892600E87140 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
 		27DFB9EE1C78CFDD00257D86 /* PersistentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
 		27DFB9F01C78D03200257D86 /* CashierTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CashierTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		27DFB9F11C78D03200257D86 /* PersistentStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentStoreTests.swift; sourceTree = "<group>"; };
@@ -59,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272F1D7B1C6A315E0098F620 /* Cashier.framework in Frameworks */,
+				2762CF761C8C892600E87140 /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,7 @@
 		272F1D661C6A315E0098F620 = {
 			isa = PBXGroup;
 			children = (
+				2762CF751C8C892600E87140 /* Serializable.framework */,
 				272F1D721C6A315E0098F620 /* Cashier */,
 				272F1D7E1C6A315E0098F620 /* CashierTests */,
 				272F1D711C6A315E0098F620 /* Products */,
@@ -103,9 +121,22 @@
 			isa = PBXGroup;
 			children = (
 				27DFB9F31C78D3AF00257D86 /* Supporting Files */,
+				2762CF681C8C882500E87140 /* Models */,
 				27DFB9F11C78D03200257D86 /* PersistentStoreTests.swift */,
+				2762CF661C8C87BA00E87140 /* PerformanceTests.swift */,
 			);
 			path = CashierTests;
+			sourceTree = "<group>";
+		};
+		2762CF681C8C882500E87140 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2762CF691C8C885000E87140 /* PerformanceSmallTest.json */,
+				2762CF6A1C8C885000E87140 /* PerformanceTest.json */,
+				2762CF6B1C8C885000E87140 /* PerformanceTestModel.swift */,
+				2762CF6C1C8C885000E87140 /* PerformanceTestSmallModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		27DFB9ED1C78CFCA00257D86 /* Source */ = {
@@ -119,6 +150,8 @@
 		27DFB9F31C78D3AF00257D86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2762CF711C8C88F100E87140 /* Bridging.swift */,
+				2762CF721C8C88F100E87140 /* CashierExtension.swift */,
 				27DFB9F01C78D03200257D86 /* CashierTests-Bridging-Header.h */,
 				272F1D811C6A315E0098F620 /* Info.plist */,
 			);
@@ -225,6 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2762CF6E1C8C885000E87140 /* PerformanceTest.json in Resources */,
+				2762CF6D1C8C885000E87140 /* PerformanceSmallTest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2762CF731C8C88F100E87140 /* Bridging.swift in Sources */,
+				2762CF741C8C88F100E87140 /* CashierExtension.swift in Sources */,
+				2762CF671C8C87BA00E87140 /* PerformanceTests.swift in Sources */,
+				2762CF6F1C8C885000E87140 /* PerformanceTestModel.swift in Sources */,
+				2762CF701C8C885000E87140 /* PerformanceTestSmallModel.swift in Sources */,
 				27DFB9F21C78D03200257D86 /* PersistentStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,8 +428,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CashierTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.CashierTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CashierTests/CashierTests-Bridging-Header.h";
@@ -401,8 +445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CashierTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.CashierTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CashierTests/CashierTests-Bridging-Header.h";
