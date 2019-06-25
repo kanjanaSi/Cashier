@@ -26,7 +26,6 @@ let package = Package(
             dependencies: ["objc"]),
         .testTarget(
             name: "CashierTests",
-            dependencies: ["Cashier"],
-            path: "CashierTests"),
+            dependencies: ["Cashier", "objc"]),
     ]
 )
